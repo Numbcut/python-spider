@@ -10,4 +10,5 @@ soup.find_all("div",class_="") </br>
 soup.select(xpath,Css selector) Css格式中的div和>中的空格一定不能少 不然无法识别 爬去失败 （>  div  >  div ）  </br>
 两者不能混用</br>
 
-
+tag.stripped_strings 获取标签下所有字标签的内容</br>
+list(tag.stripped_strings) 将其列表化</br>
