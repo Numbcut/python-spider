@@ -12,4 +12,4 @@ soup.select(xpath,Css selector) Css格式中的div和>中的空格一定不能�
 
 tag.stripped_strings 获取标签下所有字标签的内容</br>
 list(tag.stripped_strings) 将其列表化</br>
-<textarea>a = soup.select("img[width=""200]")</textarea></br>
+<textarea>a = soup.select("img[width="200"]")</textarea></br>
