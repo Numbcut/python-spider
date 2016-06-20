@@ -20,4 +20,4 @@ url = http://wanzao2.b0.upaiyun.com/system/pictures/36202611/original/1464746641
 respone = urllib2.urlopen(url)   #下载图片</br>
 a= response.read()    #读取图片信息</br>
 f=open("name.png","wb")       #创建空白 图片 </br>
-f.write(a)          #将图片的信写入 图片中     </br>
+f.write(f)          #将图片的信写入 图片中     </br>
